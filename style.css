@@ -46,3 +46,7 @@ ol li, ul li { margin-bottom: 6px; }
   display: block; padding: 16px; border-radius: 12px; border: 1px solid var(--border);
   background: var(--surface); color: var(--text); text-decoration: none; font-weight: 600;
 }
+
+.creator { display: flex; align-items: center; gap: 14px; margin: 20px 0; }
+.creator img { width: 72px; height: 72px; border-radius: 50%; object-fit: cover; object-position: top; }
+.creator div { display: flex; flex-direction: column; gap: 2px; }
