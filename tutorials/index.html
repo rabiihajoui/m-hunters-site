@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>دروس M Hunters</title>
+  <meta name="description" content="فيديوهات تشرح كيف تستعمل تطبيق M Hunters للقناصين بالمغرب." />
+  <link rel="icon" href="../icon.png" />
+  <link rel="stylesheet" href="../style.css" />
+  <style>
+    .tour video { width: 100%; max-width: 360px; display: block; margin: 0 auto; border-radius: 16px; background: #000; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 16px; }
+    .grid figure { margin: 0; }
+    .grid video { width: 100%; border-radius: 12px; background: #000; aspect-ratio: 9 / 16; }
+    .grid figcaption { font-weight: 600; font-size: 14px; margin-top: 6px; }
+    .play { display: inline-block; margin-top: 8px; padding: 10px 18px; border-radius: 999px; background: var(--accent); color: #fff; text-decoration: none; font-weight: 700; }
+  </style>
+</head>
+<body>
+  <main>
+    <header><img src="../icon.png" alt="" /><strong>M Hunters</strong></header>
+    <h1>كيف تستعمل التطبيق</h1>
+    <p class="muted">فيديوهات قصيرة بالعربية. النسختان الفرنسية والإنجليزية قادمتان.</p>
+
+    <section class="tour">
+      <h2>جولة كاملة في التطبيق (4:24)</h2>
+      <video src="ar/tour.mp4" poster="ar/tour.jpg" controls playsinline preload="none"></video>
+    </section>
+
+    <section>
+      <h2>فيديوهات قصيرة</h2>
+      <div class="grid">
+        <figure><video src="ar/today.mp4" poster="ar/today.jpg" controls playsinline preload="none"></video><figcaption>شاشة اليوم</figcaption></figure>
+        <figure><video src="ar/rules.mp4" poster="ar/rules.jpg" controls playsinline preload="none"></video><figcaption>القوانين والمساعد</figcaption></figure>
+        <figure><video src="ar/map.mp4" poster="ar/map.jpg" controls playsinline preload="none"></video><figcaption>الخريطة والتسجيل</figcaption></figure>
+        <figure><video src="ar/territory.mp4" poster="ar/territory.jpg" controls playsinline preload="none"></video><figcaption>معرفة المحمية</figcaption></figure>
+        <figure><video src="ar/journal.mp4" poster="ar/journal.jpg" controls playsinline preload="none"></video><figcaption>مذكرة القنص</figcaption></figure>
+        <figure><video src="ar/safety.mp4" poster="ar/safety.jpg" controls playsinline preload="none"></video><figcaption>السلامة والنجدة</figcaption></figure>
+        <figure><video src="ar/associations.mp4" poster="ar/associations.jpg" controls playsinline preload="none"></video><figcaption>جمعيات القنص</figcaption></figure>
+        <figure><video src="ar/community.mp4" poster="ar/community.jpg" controls playsinline preload="none"></video><figcaption>المجتمع</figcaption></figure>
+      </div>
+    </section>
+
+    <p><a class="play" href="https://play.google.com/store/apps/details?id=ma.mhunters.app">حمّل التطبيق من Google Play</a></p>
+    <p class="muted">من إنشاء ربيع حجوي · <a href="../">M Hunters</a></p>
+  </main>
+</body>
+</html>
